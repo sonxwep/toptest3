@@ -1,0 +1,95 @@
+@import url("./font.css");
+* {
+    font-family: "InterL";
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    font-family: "InterL";
+    font-size: 75px;
+    margin-bottom:70px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.box {
+    border-right: solid 15px #D91842;
+    border-top: solid 15px #D91842;
+    padding: 40px 40px 0 40px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+} 
+.box a{
+    color: black;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+form input {
+    width: 100%; /* Элементы занимают всю ширину формы */
+    max-width: 300px; /* Но не слишком широкие */
+}
+
+form input {
+    padding: 12px 15px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #494949;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+
+button {
+    background-color: #D91842;
+    color: white;
+    border-radius: 5px;
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    /* position: relative;
+    left: 83px; */
+
+}
+
+button:hover {
+    background-color: #c0163a;
+}

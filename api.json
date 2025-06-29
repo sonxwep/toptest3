@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "subject": "Start IT",
+        "age": "ПШ",
+        "lesson": "./1.html"
+    },
+    {
+        "id": 2,
+        "subject": "3D скульптинг",
+        "age": "ПШ",
+        "lesson": "./8.html"
+    },
+    {
+        "id": 3,
+        "subject": " Моделирование 3D мира",
+        "age": "ПШ",
+        "lesson": "./3.html"
+    },
+    {
+        "id": 4,
+        "subject": "Робототехника ",
+        "age": "ПШ",
+        "lesson": "./4.html"
+    },
+    {
+        "id": 5,
+        "subject": "Мультипликация",
+        "age": "ПШ",
+        "lesson": "./5.html"
+    },
+    {
+        "id": 6,
+        "subject": "Введение в программирование Scratch",
+        "age": "ПШ",
+        "lesson": "./6.html"
+    },
+    {
+        "id": 7,
+        "subject": "Фотография и YouTube",
+        "age": "ПШ",
+        "lesson": "./7.html"
+    },
+    {
+        "id": 8,
+        "subject": "Start IT",
+        "age": "МКА",
+        "lesson": "./2.html"
+    },
+    {
+        "id": 9,
+        "subject": "3D-моделирование и виртуальная реальность",
+        "age": "МКА",
+        "lesson": "./9.html"
+    },
+    {
+        "id": 10,
+        "subject": "Web-дизайн Junior (HTML&CSS)",
+        "age": "МКА",
+        "lesson": "./10.html"
+    },
+    {
+        "id": 11,
+        "subject": "Разработка игр - Kodu",
+        "age": "МКА",
+        "lesson": "./11.html"
+    },
+    {
+        "id": 12,
+        "subject": "Разработка игр - Construct 3",
+        "age": "МКА",
+        "lesson": "./12.html"
+    },
+    {
+        "id": 13,
+        "subject": "Lego Pro",
+        "age": "МКА",
+        "lesson": "./13.html"
+    },
+    {
+        "id": 14,
+        "subject": "Python Junior",
+        "age": "МКА",
+        "lesson": "./14.html"
+    },
+    {
+        "id": 15,
+        "subject": "Робототехника и техника ",
+        "age": "МКА",
+        "lesson": "./15.html"
+    }
+]

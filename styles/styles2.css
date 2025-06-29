@@ -1,0 +1,503 @@
+@import url("./font.css");
+
+* {
+    font-family: "InterL";
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    text-align: center;
+    flex-grow: 1;
+    color: #D91842;
+    font-size: 2.5rem;
+}
+
+.user-greeting {
+    color: #555;
+    font-size: 1rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.nav-links a {
+    color: #D91842;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #a61232;
+    text-decoration: underline;
+}
+
+.divider {
+    height: 2px;
+    background-color: #D91842;
+    margin-bottom: 20px;
+}
+.divider2 {
+    height: 4px;
+    background-color: #d91842e5;
+    margin: 30px;
+    width: 650px;
+}
+
+.box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #D91842;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #a61232;
+}
+
+.message {
+    margin-top: 15px;
+    color: #D91842;
+    text-align: center;
+}
+
+button {
+    background-color: #D91842;
+    color: white;
+    border-radius: 5px;
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.infouser {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    padding: 15px;
+    font-family: "InterL";
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logot img {
+    height: 70px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+
+.user-info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(233, 79, 79, 0.1);
+}
+
+.user-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.logout-btn {
+    background-color: #D91842;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s;
+    font-family: "InterL";
+    width: 60px;
+    height: 35px;
+}
+
+.logout-btn:hover {
+    background-color: #b31538;
+}
+
+
+.logo img {
+    max-height: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: start;
+}
+
+
+.title {
+    color: #000000;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin: 20px;
+
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #D91842;
+    font-weight: bolder;
+}
+
+
+.divider {
+    height: 5px;
+    background-color: #D91842;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.insruction {
+    font-size: 28px;
+    padding: 15px;
+    text-align: left;
+
+}
+
+.ssilka {
+    color: #D91842;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: left;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+}
+.age, .type{
+    border: white;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 15px;
+    padding: 5px;
+    font-weight: bolder;
+
+}
+.card{
+    background-color:#D91842;
+    padding: 16px;
+    border-radius: 35px;
+    text-align: left;
+}
+.card img{
+    margin: 8px;
+}
+.name{
+    padding: 3px;
+    font-weight: bold;  
+    font-size: 20px;
+    font-family: "InterL";
+}
+.adress{
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 17px;  
+    font-family: "InterL";
+}
+.news{
+    display: flex;
+    justify-content: center;align-items: center;
+    gap: 20px;
+}
+.news2{
+    display: flex;
+    justify-content: center;align-items: center;
+    gap: 20px;
+}
+.hnews{
+    color: #000000;
+    padding: 15px;
+}
+
+h2 {
+    color: #444;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.filters {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+.poisk, select {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    flex-grow: 1;
+    min-width: 200px;
+}
+select {
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Карточки курсов */
+.kourse-info {
+    width: 650px; /* Фиксированная ширина */
+    padding: 20px;
+    border: 3px solid #D91842; /* Граница цвета #D91842 */
+    border-radius: 6px;
+    margin-bottom: 15px;
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.kourse-info:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(217, 24, 66, 0.1);
+}
+
+.kourse-info h3 {
+    color: #000; /* Черный цвет */
+    font-weight: bold; /* Жирный шрифт */
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kourse-info button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.2s;
+    margin-left: 15px;
+}
+
+.kourse-info button.favorite {
+    color: #D91842;
+}
+
+.kourse-info button:hover {
+    color: #D91842;
+}
+
+/* Сообщения */
+.loading {
+    padding: 20px;
+    text-align: center;
+    color: #D91842;
+    font-weight: bold;
+}
+
+.error {
+    padding: 20px;
+    background-color: #ffebee;
+    color: #D91842;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border-left: 4px solid #D91842;
+}
+
+.no-results {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+.favorite-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #ccc;
+    margin-left: 15px;
+    transition: color 0.2s;
+}
+
+.favorite-btn:hover, .favorite-btn.active {
+    color: #D91842;
+}
+
+.remove-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #ff6b6b;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.no-favorites {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+    font-size: 18px;
+}
+.mycours{
+    text-decoration: none;
+    font-weight: bold;
+    color: #D91842;
+    margin-top: 8px;
+}
+.reset-btn {
+    padding: 8px 16px;
+    background-color: #D91842;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.reset-btn:hover {
+    background-color: #b30d31;
+}
+
+.favorite-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.go-to-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #D91842;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s;
+    font-size: 14px;
+}
+
+.go-to-btn:hover {
+    background-color:  #b30d31;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.kourse-info {
+    position: relative;
+    padding-bottom: 30px; 
+}
